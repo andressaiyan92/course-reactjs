@@ -8,6 +8,9 @@ import ViewPropsComponent from './components/properties/ViewPropsComponent';
 import ParaphraseComponent from './components/ParaphraseComponent';
 import CountComponent from './components/states/CountComponent';
 import AccessComponent from './components/conditionalRender/AccessComponent';
+import ElementRenderComponent from './components/collectionRender/ElementRenderComponent';
+import CounterComponent from './components/Events/CounterComponent';
+import SimpleCounterComponent from './components/Events/SimpleCounterComponent';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
       {/* Reemplazar class por className */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <SimpleCounterComponent />
+        <CounterComponent />
+        <ElementRenderComponent/>
         <AccessComponent/>
         <CountComponent />
         <ViewPropsComponent msg="Uso de propiedades"

@@ -1,0 +1,30 @@
+{
+    "frameworks":[
+        {
+            "id": 1,
+            "name": "React JS",
+            "website": "https://reactjs.org/"
+        },
+        {
+            "id": 2,
+            "name": "Angular JS",
+            "website": "https://angular.io/"
+        },
+        {
+            "id": 3,
+            "name": "Vue JS",
+            "website": "https://vuejs.org/"
+        },
+        {
+            "id": 4,
+            "name": "Ember JS",
+            "website": "https://emberjs.com/"
+        },
+        {
+            "id": 5,
+            "name": "Backbone JS",
+            "website": "https://backbonejs.org/"
+        }
+
+    ]
+}
