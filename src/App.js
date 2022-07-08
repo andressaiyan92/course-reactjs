@@ -13,6 +13,8 @@ import CounterComponent from './components/Events/CounterComponent';
 import SimpleCounterComponent from './components/Events/SimpleCounterComponent';
 import ButtonComponent from './components/Events/Native_Sintetic_Customs/ButtonComponent';
 import FatherComponent from './components/CommunicationComponent/FatherComponent';
+import TimerComponent from './components/LifeCycle/TimerComponent';
+import PokedexComponent from './components/AJAXAPI/PokedexComponent';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       {/* Reemplazar class por className */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <PokedexComponent />
+        <TimerComponent />
         <FatherComponent />
         <ButtonComponent />
         <SimpleCounterComponent />
